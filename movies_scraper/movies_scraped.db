@@ -1,0 +1,8 @@
+CREATE TABLE `movies_scraped (
+  `movie_index` int(11) NOT NULL AUTO_INCREMENT,
+  `movie_name` varchar(255) COLLATE utf8_bin NOT NULL,
+  `movie_press_note` varchar(255) COLLATE utf8_bin NOT NULL,
+  `movie_spectators_note` varchar(255) COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`movie_index`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin
+  AUTO_INCREMENT=1;

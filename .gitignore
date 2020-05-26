@@ -1,0 +1,4 @@
+venv/
+.idea/
+movies_scraper/__pycache__/
+movies_scraper/spiders/__pycache__/
